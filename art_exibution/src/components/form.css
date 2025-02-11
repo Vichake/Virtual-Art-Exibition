@@ -1,0 +1,92 @@
+.register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #082a41; 
+  }
+  
+  .register-form {
+    background-color: rgba(255, 255, 255, 0.201); 
+    padding: 40px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+    backdrop-filter: blur(10px);
+  }
+  
+  
+  .register-form input[type="text"],
+  .register-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 25px;
+    font-size: 16px;
+  }
+
+  .register-form input[type="text"]:hover {
+    scale:1.005;
+    transition: 0.5s;
+    border: 2px solid #48494b9e;
+  }
+  .register-form input[type="password"]:hover {
+    scale:1.005;
+    transition: 0.5s;
+    border: 2px solid #48494b9e;
+  }
+  
+  .register-form input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #4896ce;  
+    border: none;
+    color: white;
+    border-radius: 25px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .register-form input[type="submit"]:hover {
+    background-color: #296fa1;
+    scale: 1.05;
+    transition: 0.5s;
+  }
+  
+  .register-form h5 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+  }
+  
+  ul li {
+    text-align: center;
+  }
+  
+  ul li a {
+    text-decoration: none;
+    color: #2c3e50;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  ul li a:hover {
+    color: #2980b9;
+  }
+  
+  .message {
+    color: #e74c3c;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 20px;
+  }
